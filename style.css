@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:600;
+  background: #e5dfdf;
+}
+.box{
+  width: 390px;
+  padding: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #393e46;
+  border-radius: 5%;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.admin,.student{
+  border:0;
+  background: none;
+  display: block;
+  margin: 45px auto;
+  text-align: center;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.student{
+  border: 2px solid #2ecc71;
+}
+.admin{
+  border: 2px solid #3498db;
+}
+
+.student:hover{
+  width: 280px;
+  background-color: #2ecc71;
+}
+.admin:hover{
+  width: 280px;
+  background-color:  #3498db;
+}
+
+
+.navbar{
+    background-color:#e5dfdf !important;
+}
+
+.btn{
+  border-radius: 50px;
+background-color: rgb(0,136,169);
+padding-bottom: 5px;
+color:white;
+font-weight: bold;
+position: absolute;
+right:4%;
+top:25%;
+}
+a:hover{
+  text-decoration: none;
+}
