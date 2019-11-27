@@ -1,0 +1,15 @@
+
+
+.table{
+
+  color:#3c4245;
+  border: 1px solid #ddd;
+border-collapse: collapse;
+line-height: 2.1;
+    font-size: 1.2em;
+    text-align: left;
+    width: 98%;
+}
+tr:hover{
+  background-color: #979797;
+}
