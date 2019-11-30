@@ -22,7 +22,6 @@ body{
 
 }
 .admin,.student{
-  border:0;
   background: none;
   display: block;
   margin: 45px auto;
@@ -67,4 +66,17 @@ top:25%;
 }
 a:hover{
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+ *{
+    transform: scale(1.5);
+
+    background-color: red;
+  }
+}
+
+input{
+  outline: none;
 }
